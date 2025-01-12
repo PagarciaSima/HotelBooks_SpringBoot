@@ -10,6 +10,6 @@ import com.hotelsbook.services.entity.HotelServiceEntity;
 
 public interface HotelServiceRepository extends JpaRepository<HotelServiceEntity, Long>{
 
-	@Query(value = "CALL getServicesByHotels(:hotelIds)", nativeQuery = true)
-	List<HotelServiceEntity[]> getServicesByHotels(@Param ("hotelIds") String hotelIds);
+	@Query(value = "CALL GetServicesByHotels(:hotelIds)", nativeQuery = true)
+    List<Object[]> getServicesByHotels(@Param("hotelIds") String hotelIds);
 }
