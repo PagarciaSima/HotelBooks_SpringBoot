@@ -2,6 +2,8 @@ package com.hotelsbook.services.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,6 +22,8 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class HotelServiceController {
 
+	private static final Logger logger = LoggerFactory.getLogger(HotelService.class);
+
 	private HotelService hotelService;
 	
 	@GetMapping("/services/{hotelIds}")
@@ -32,6 +36,7 @@ public class HotelServiceController {
 			return new ResponseEntity<>(response, HttpStatus.OK);
 		} catch ( Exception e ) {
 			ErrorResponse error = new ErrorResponse(500, "Internal server error");
+			logger.error("Error in HotelServiceController " + e.getMessage());
     		return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
 
 		}

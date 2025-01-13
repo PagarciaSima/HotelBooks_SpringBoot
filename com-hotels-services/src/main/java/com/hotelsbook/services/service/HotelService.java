@@ -5,6 +5,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import com.hotelsbook.services.DTO.HotelServicesDTO;
@@ -16,11 +18,14 @@ import lombok.AllArgsConstructor;
 @Service
 @AllArgsConstructor
 public class HotelService {
+	
+	private static final Logger logger = LoggerFactory.getLogger(HotelService.class);
 
     private HotelServiceRepository repository;
 
     public List<HotelServicesDTO> getServicesByHotels(String hotelIds) {
         
+    	logger.info(hotelIds);
         
         List<Object[]> results = repository.getServicesByHotels(hotelIds);
 
