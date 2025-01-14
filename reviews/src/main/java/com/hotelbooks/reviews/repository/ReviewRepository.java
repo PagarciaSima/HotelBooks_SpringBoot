@@ -13,5 +13,5 @@ import com.hotelbooks.reviews.entity.ReviewEntity;
 public interface ReviewRepository extends JpaRepository<ReviewEntity, Long>{
 	
 	@Query(value="CALL getAverageCalificationByHotel(?1)", nativeQuery = true)
-	List<Object> findAverageCalificationsByHotel(@Param("hotelIds") String hotelIds);
+	List<Object []> findAverageCalificationsByHotel(@Param("hotelIds") String hotelIds);
 }
