@@ -16,8 +16,8 @@ public class ReviewsService {
 
 	private  ReviewRepository repository;
 	
-	public List<ReviewDTO> getAverageCalifications(String hotelIds){
-		List<Object[]> results = repository.findAverageCalificationsByHotel(hotelIds);
+	public List<ReviewDTO> getAverageRatings(String hotelIds){
+		List<Object[]> results = repository.findAverageRatingsByHotel(hotelIds);
 		return results.stream().map(result -> new ReviewDTO(
 				((Number) result[1]).longValue(), // hotelId
 				((Number) result[2]).doubleValue() // AverageReview
