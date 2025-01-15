@@ -11,7 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.hotelbooks.hotel.dto.HotelServiceDTO;
+import com.hotelbooks.hotel.dto.HotelReviewDTO;
 
 @Service
 public class HotelReviewClient {
@@ -25,16 +25,16 @@ private final RestTemplate restTemplate;
 		this.restTemplate = builder.build();
 	}
 	
-	public List<HotelServiceDTO> getHotelReviews(List<Long> hotelIds) {
+	public List<HotelReviewDTO> getHotelReviews(List<Long> hotelIds) {
 		// Convert Ids to String and join them comma separated
 		String hotelIdsParam = hotelIds.stream().map(String::valueOf).collect(Collectors.joining(","));
 		String url = reviewsUrl + "/" + hotelIdsParam;
 		// Third parameter = body, and fourth = type response
-		ResponseEntity<List<HotelServiceDTO>> response = restTemplate.exchange(
+		ResponseEntity<List<HotelReviewDTO>> response = restTemplate.exchange(
 			url,
 			HttpMethod.GET,
 			null,
-			new ParameterizedTypeReference<List<HotelServiceDTO>>() {}
+			new ParameterizedTypeReference<List<HotelReviewDTO>>() {}
 		);
 		return response.getBody();
 	}
