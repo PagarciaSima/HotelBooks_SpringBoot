@@ -1,0 +1,222 @@
+2025-01-14 06:16:03 - Starting ReviewsApplication using Java 17.0.4.1 with PID 13644 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
+2025-01-14 06:16:03 - No active profile set, falling back to 1 default profile: "default"
+2025-01-14 06:16:03 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-14 06:16:03 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-14 06:16:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-14 06:16:03 - Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2025-01-14 06:16:04 - Tomcat initialized with port 8081 (http)
+2025-01-14 06:16:04 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:16:04 - Starting service [Tomcat]
+2025-01-14 06:16:04 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-14 06:16:04 - Initializing Spring embedded WebApplicationContext
+2025-01-14 06:16:04 - Root WebApplicationContext: initialization completed in 1226 ms
+2025-01-14 06:16:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-14 06:16:04 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-14 06:16:04 - HHH000026: Second-level cache disabled
+2025-01-14 06:16:04 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-14 06:16:04 - HikariPool-1 - Starting...
+2025-01-14 06:16:05 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7994be02
+2025-01-14 06:16:05 - HikariPool-1 - Start completed.
+2025-01-14 06:16:05 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-14 06:16:05 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.31
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-14 06:16:06 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
+2025-01-14 06:16:06 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-14 06:16:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-14 06:16:07 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-14 06:16:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-14 06:16:08 - Unable to start LiveReload server
+2025-01-14 06:16:08 - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:16:08 - Tomcat started on port 8081 (http) with context path '/'
+2025-01-14 06:16:08 - Started ReviewsApplication in 5.827 seconds (process running for 15.649)
+2025-01-14 06:18:07 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-14 06:18:07 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-14 06:18:07 - Pausing ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:07 - Graceful shutdown complete
+2025-01-14 06:18:07 - Stopping ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-14 06:18:07 - HikariPool-1 - Shutdown initiated...
+2025-01-14 06:18:07 - HikariPool-1 - Shutdown completed.
+2025-01-14 06:18:07 - Starting ReviewsApplication using Java 17.0.4.1 with PID 13644 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
+2025-01-14 06:18:07 - No active profile set, falling back to 1 default profile: "default"
+2025-01-14 06:18:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-14 06:18:07 - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2025-01-14 06:18:07 - Tomcat initialized with port 8081 (http)
+2025-01-14 06:18:07 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:07 - Starting service [Tomcat]
+2025-01-14 06:18:07 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-14 06:18:07 - Initializing Spring embedded WebApplicationContext
+2025-01-14 06:18:07 - Root WebApplicationContext: initialization completed in 214 ms
+2025-01-14 06:18:07 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-14 06:18:07 - HHH000026: Second-level cache disabled
+2025-01-14 06:18:07 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-14 06:18:07 - HikariPool-2 - Starting...
+2025-01-14 06:18:07 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32109818
+2025-01-14 06:18:07 - HikariPool-2 - Start completed.
+2025-01-14 06:18:07 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-14 06:18:07 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.31
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-14 06:18:07 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
+2025-01-14 06:18:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-14 06:18:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-14 06:18:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-14 06:18:07 - Unable to start LiveReload server
+2025-01-14 06:18:07 - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:07 - Tomcat started on port 8081 (http) with context path '/'
+2025-01-14 06:18:07 - Started ReviewsApplication in 0.479 seconds (process running for 135.044)
+2025-01-14 06:18:07 - Condition evaluation unchanged
+2025-01-14 06:18:32 - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-01-14 06:18:32 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-14 06:18:32 - Pausing ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:32 - Graceful shutdown complete
+2025-01-14 06:18:32 - Stopping ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-14 06:18:32 - HikariPool-2 - Shutdown initiated...
+2025-01-14 06:18:32 - HikariPool-2 - Shutdown completed.
+2025-01-14 06:18:32 - Starting ReviewsApplication using Java 17.0.4.1 with PID 13644 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
+2025-01-14 06:18:32 - No active profile set, falling back to 1 default profile: "default"
+2025-01-14 06:18:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-14 06:18:32 - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-01-14 06:18:33 - Tomcat initialized with port 8081 (http)
+2025-01-14 06:18:33 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:33 - Starting service [Tomcat]
+2025-01-14 06:18:33 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-14 06:18:33 - Initializing Spring embedded WebApplicationContext
+2025-01-14 06:18:33 - Root WebApplicationContext: initialization completed in 241 ms
+2025-01-14 06:18:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-14 06:18:33 - HHH000026: Second-level cache disabled
+2025-01-14 06:18:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-14 06:18:33 - HikariPool-3 - Starting...
+2025-01-14 06:18:33 - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57095e3
+2025-01-14 06:18:33 - HikariPool-3 - Start completed.
+2025-01-14 06:18:33 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-14 06:18:33 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.31
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-14 06:18:33 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
+2025-01-14 06:18:33 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-14 06:18:33 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-14 06:18:33 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-14 06:18:33 - Unable to start LiveReload server
+2025-01-14 06:18:33 - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:33 - Tomcat started on port 8081 (http) with context path '/'
+2025-01-14 06:18:33 - Started ReviewsApplication in 0.508 seconds (process running for 160.58)
+2025-01-14 06:18:33 - Condition evaluation unchanged
+2025-01-14 06:18:58 - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-01-14 06:18:58 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-14 06:18:58 - Pausing ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:58 - Graceful shutdown complete
+2025-01-14 06:18:58 - Stopping ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-14 06:18:58 - HikariPool-3 - Shutdown initiated...
+2025-01-14 06:18:58 - HikariPool-3 - Shutdown completed.
+2025-01-14 06:18:58 - Starting ReviewsApplication using Java 17.0.4.1 with PID 13644 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
+2025-01-14 06:18:58 - No active profile set, falling back to 1 default profile: "default"
+2025-01-14 06:18:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-14 06:18:58 - Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2025-01-14 06:18:58 - Tomcat initialized with port 8081 (http)
+2025-01-14 06:18:58 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:58 - Starting service [Tomcat]
+2025-01-14 06:18:58 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-14 06:18:58 - Initializing Spring embedded WebApplicationContext
+2025-01-14 06:18:58 - Root WebApplicationContext: initialization completed in 248 ms
+2025-01-14 06:18:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-14 06:18:58 - HHH000026: Second-level cache disabled
+2025-01-14 06:18:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-14 06:18:58 - HikariPool-4 - Starting...
+2025-01-14 06:18:58 - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c25c3ba
+2025-01-14 06:18:58 - HikariPool-4 - Start completed.
+2025-01-14 06:18:58 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-14 06:18:58 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.0.31
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-14 06:18:58 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
+2025-01-14 06:18:58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-14 06:18:58 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-14 06:18:58 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-14 06:18:58 - Unable to start LiveReload server
+2025-01-14 06:18:58 - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:18:58 - Tomcat started on port 8081 (http) with context path '/'
+2025-01-14 06:18:58 - Started ReviewsApplication in 0.467 seconds (process running for 186.067)
+2025-01-14 06:18:58 - Condition evaluation unchanged
+2025-01-14 06:20:25 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-14 06:20:25 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-14 06:20:25 - Pausing ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:20:25 - Graceful shutdown complete
+2025-01-14 06:20:25 - Stopping ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:20:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-14 06:20:25 - HikariPool-4 - Shutdown initiated...
+2025-01-14 06:20:25 - HikariPool-4 - Shutdown completed.
+2025-01-14 06:20:25 - Starting ReviewsApplication using Java 17.0.4.1 with PID 13644 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
+2025-01-14 06:20:25 - No active profile set, falling back to 1 default profile: "default"
+2025-01-14 06:20:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-14 06:20:25 - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2025-01-14 06:20:25 - Tomcat initialized with port 8081 (http)
+2025-01-14 06:20:25 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:20:25 - Starting service [Tomcat]
+2025-01-14 06:20:25 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-14 06:20:25 - Initializing Spring embedded WebApplicationContext
+2025-01-14 06:20:25 - Root WebApplicationContext: initialization completed in 182 ms
+2025-01-14 06:20:25 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-14 06:20:25 - HHH000026: Second-level cache disabled
+2025-01-14 06:20:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-14 06:20:25 - HikariPool-5 - Starting...
+2025-01-14 06:20:25 - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@580042d1
+2025-01-14 06:20:25 - HikariPool-5 - Start completed.
+2025-01-14 06:20:25 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-14 06:20:25 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 8.0.31
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-14 06:20:25 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
+2025-01-14 06:20:25 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-14 06:20:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-14 06:20:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-14 06:20:26 - Unable to start LiveReload server
+2025-01-14 06:20:26 - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-14 06:20:26 - Tomcat started on port 8081 (http) with context path '/'
+2025-01-14 06:20:26 - Started ReviewsApplication in 0.495 seconds (process running for 273.421)
+2025-01-14 06:20:26 - Condition evaluation unchanged
+2025-01-14 06:20:37 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-14 06:20:37 - Initializing Servlet 'dispatcherServlet'
+2025-01-14 06:20:37 - Completed initialization in 0 ms
+2025-01-14 06:20:38 - 1,2
+2025-01-14 08:35:05 - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=34m10s26ms25µs100ns).
+2025-01-14 09:31:28 - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=30m53s26ms87µs101ns).
+2025-01-14 09:43:05 - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=6m36s916ms470µs899ns).
+2025-01-14 10:12:04 - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=21m58s703ms449µs500ns).
+2025-01-14 14:21:53 - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=3h47m49s378ms254µs201ns).
+2025-01-14 14:49:21 - Application shutdown requested.
+2025-01-14 14:49:21 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-14 14:49:21 - Pausing ProtocolHandler ["http-nio-8081"]
+2025-01-14 14:49:21 - Graceful shutdown complete
+2025-01-14 14:49:21 - Stopping ProtocolHandler ["http-nio-8081"]
+2025-01-14 14:49:21 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-14 14:49:21 - HikariPool-5 - Shutdown initiated...
+2025-01-14 14:49:21 - HikariPool-5 - Shutdown completed.

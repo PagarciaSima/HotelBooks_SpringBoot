@@ -1,24 +1,24 @@
-2025-01-14 06:16:03 - Starting ReviewsApplication using Java 17.0.4.1 with PID 13644 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
-2025-01-14 06:16:03 - No active profile set, falling back to 1 default profile: "default"
-2025-01-14 06:16:03 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-01-14 06:16:03 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-01-14 06:16:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-14 06:16:03 - Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
-2025-01-14 06:16:04 - Tomcat initialized with port 8081 (http)
-2025-01-14 06:16:04 - Initializing ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:16:04 - Starting service [Tomcat]
-2025-01-14 06:16:04 - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-14 06:16:04 - Initializing Spring embedded WebApplicationContext
-2025-01-14 06:16:04 - Root WebApplicationContext: initialization completed in 1226 ms
-2025-01-14 06:16:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-14 06:16:04 - HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-14 06:16:04 - HHH000026: Second-level cache disabled
-2025-01-14 06:16:04 - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-14 06:16:04 - HikariPool-1 - Starting...
-2025-01-14 06:16:05 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7994be02
-2025-01-14 06:16:05 - HikariPool-1 - Start completed.
-2025-01-14 06:16:05 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-14 06:16:05 - HHH10001005: Database info:
+2025-01-16 12:17:54 - Starting ReviewsApplication using Java 17.0.4.1 with PID 6696 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
+2025-01-16 12:17:54 - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 12:17:54 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-16 12:17:54 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-16 12:17:55 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-16 12:17:55 - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2025-01-16 12:17:55 - Tomcat initialized with port 8081 (http)
+2025-01-16 12:17:55 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-16 12:17:55 - Starting service [Tomcat]
+2025-01-16 12:17:55 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-16 12:17:55 - Initializing Spring embedded WebApplicationContext
+2025-01-16 12:17:55 - Root WebApplicationContext: initialization completed in 1178 ms
+2025-01-16 12:17:56 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-16 12:17:56 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-16 12:17:56 - HHH000026: Second-level cache disabled
+2025-01-16 12:17:56 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-16 12:17:56 - HikariPool-1 - Starting...
+2025-01-16 12:17:56 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1dfcfb92
+2025-01-16 12:17:56 - HikariPool-1 - Start completed.
+2025-01-16 12:17:56 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-16 12:17:56 - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.31
@@ -26,197 +26,693 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-14 06:16:06 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
-2025-01-14 06:16:06 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-14 06:16:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-14 06:16:07 - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-01-14 06:16:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-14 06:16:08 - Unable to start LiveReload server
-2025-01-14 06:16:08 - Starting ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:16:08 - Tomcat started on port 8081 (http) with context path '/'
-2025-01-14 06:16:08 - Started ReviewsApplication in 5.827 seconds (process running for 15.649)
-2025-01-14 06:18:07 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-01-14 06:18:07 - Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-14 06:18:07 - Pausing ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:07 - Graceful shutdown complete
-2025-01-14 06:18:07 - Stopping ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-01-14 06:18:07 - HikariPool-1 - Shutdown initiated...
-2025-01-14 06:18:07 - HikariPool-1 - Shutdown completed.
-2025-01-14 06:18:07 - Starting ReviewsApplication using Java 17.0.4.1 with PID 13644 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
-2025-01-14 06:18:07 - No active profile set, falling back to 1 default profile: "default"
-2025-01-14 06:18:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-14 06:18:07 - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
-2025-01-14 06:18:07 - Tomcat initialized with port 8081 (http)
-2025-01-14 06:18:07 - Initializing ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:07 - Starting service [Tomcat]
-2025-01-14 06:18:07 - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-14 06:18:07 - Initializing Spring embedded WebApplicationContext
-2025-01-14 06:18:07 - Root WebApplicationContext: initialization completed in 214 ms
-2025-01-14 06:18:07 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-14 06:18:07 - HHH000026: Second-level cache disabled
-2025-01-14 06:18:07 - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-14 06:18:07 - HikariPool-2 - Starting...
-2025-01-14 06:18:07 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32109818
-2025-01-14 06:18:07 - HikariPool-2 - Start completed.
-2025-01-14 06:18:07 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-14 06:18:07 - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+2025-01-16 12:17:57 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
+2025-01-16 12:17:57 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-16 12:17:57 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-16 12:17:57 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-16 12:17:57 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-16 12:17:58 - Unable to start LiveReload server
+2025-01-16 12:17:58 - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-16 12:17:58 - Tomcat started on port 8081 (http) with context path '/'
+2025-01-16 12:17:58 - Started ReviewsApplication in 3.87 seconds (process running for 4.502)
+2025-01-16 12:21:07 - Starting ReviewsApplication using Java 17.0.4.1 with PID 18732 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
+2025-01-16 12:21:07 - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 12:21:07 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-16 12:21:07 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-16 12:21:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-16 12:21:07 - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2025-01-16 12:21:08 - Tomcat initialized with port 8081 (http)
+2025-01-16 12:21:08 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-16 12:21:08 - Starting service [Tomcat]
+2025-01-16 12:21:08 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-16 12:21:08 - Initializing Spring embedded WebApplicationContext
+2025-01-16 12:21:08 - Root WebApplicationContext: initialization completed in 1273 ms
+2025-01-16 12:21:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-16 12:21:08 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-16 12:21:08 - HHH000026: Second-level cache disabled
+2025-01-16 12:21:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-16 12:21:08 - HikariPool-1 - Starting...
+2025-01-16 12:21:10 - SQL Error: 0, SQLState: 08001
+2025-01-16 12:21:10 - Public Key Retrieval is not allowed
+2025-01-16 12:21:10 - HHH000342: Could not obtain connection to query metadata
+org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Public Key Retrieval is not allowed] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:320)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.hotelbooks.reviews.ReviewsApplication.main(ReviewsApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 40 common frames omitted
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:76)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:122)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:40)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:436)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1333)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 53 common frames omitted
+2025-01-16 12:21:10 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-16 12:21:10 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (null)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-16 12:21:10 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
+2025-01-16 12:21:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-16 12:21:10 - HikariPool-1 - Starting...
+2025-01-16 12:21:11 - SQL Error: 0, SQLState: 08001
+2025-01-16 12:21:11 - Public Key Retrieval is not allowed
+2025-01-16 12:21:11 - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Public Key Retrieval is not allowed] [n/a]
+2025-01-16 12:21:11 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Public Key Retrieval is not allowed] [n/a]
+2025-01-16 12:21:11 - Stopping service [Tomcat]
+2025-01-16 12:21:11 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-16 12:21:11 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Public Key Retrieval is not allowed] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.hotelbooks.reviews.ReviewsApplication.main(ReviewsApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Public Key Retrieval is not allowed] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:431)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	... 20 common frames omitted
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Public Key Retrieval is not allowed] [n/a]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:51)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:70)
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:65)
+	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:570)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:122)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:72)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	... 24 common frames omitted
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46)
+	... 45 common frames omitted
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:76)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:122)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:40)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:436)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1333)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:155)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 58 common frames omitted
+2025-01-16 12:31:29 - Starting ReviewsApplication using Java 17.0.4.1 with PID 21320 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
+2025-01-16 12:31:29 - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 12:31:29 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-16 12:31:29 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-16 12:31:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-16 12:31:29 - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2025-01-16 12:31:30 - Tomcat initialized with port 8081 (http)
+2025-01-16 12:31:30 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-16 12:31:30 - Starting service [Tomcat]
+2025-01-16 12:31:30 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-16 12:31:30 - Initializing Spring embedded WebApplicationContext
+2025-01-16 12:31:30 - Root WebApplicationContext: initialization completed in 1001 ms
+2025-01-16 12:31:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-16 12:31:30 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-16 12:31:30 - HHH000026: Second-level cache disabled
+2025-01-16 12:31:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-16 12:31:30 - HikariPool-1 - Starting...
+2025-01-16 12:31:30 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16e5f077
+2025-01-16 12:31:30 - HikariPool-1 - Start completed.
+2025-01-16 12:31:30 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-16 12:31:30 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.31
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-14 06:18:07 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
-2025-01-14 06:18:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-14 06:18:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-14 06:18:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-14 06:18:07 - Unable to start LiveReload server
-2025-01-14 06:18:07 - Starting ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:07 - Tomcat started on port 8081 (http) with context path '/'
-2025-01-14 06:18:07 - Started ReviewsApplication in 0.479 seconds (process running for 135.044)
-2025-01-14 06:18:07 - Condition evaluation unchanged
-2025-01-14 06:18:32 - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
-2025-01-14 06:18:32 - Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-14 06:18:32 - Pausing ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:32 - Graceful shutdown complete
-2025-01-14 06:18:32 - Stopping ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-01-14 06:18:32 - HikariPool-2 - Shutdown initiated...
-2025-01-14 06:18:32 - HikariPool-2 - Shutdown completed.
-2025-01-14 06:18:32 - Starting ReviewsApplication using Java 17.0.4.1 with PID 13644 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
-2025-01-14 06:18:32 - No active profile set, falling back to 1 default profile: "default"
-2025-01-14 06:18:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-14 06:18:32 - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
-2025-01-14 06:18:33 - Tomcat initialized with port 8081 (http)
-2025-01-14 06:18:33 - Initializing ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:33 - Starting service [Tomcat]
-2025-01-14 06:18:33 - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-14 06:18:33 - Initializing Spring embedded WebApplicationContext
-2025-01-14 06:18:33 - Root WebApplicationContext: initialization completed in 241 ms
-2025-01-14 06:18:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-14 06:18:33 - HHH000026: Second-level cache disabled
-2025-01-14 06:18:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-14 06:18:33 - HikariPool-3 - Starting...
-2025-01-14 06:18:33 - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57095e3
-2025-01-14 06:18:33 - HikariPool-3 - Start completed.
-2025-01-14 06:18:33 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-14 06:18:33 - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+2025-01-16 12:31:31 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
+2025-01-16 12:31:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-16 12:31:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-16 12:31:31 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-01-16 12:31:31 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-16 12:31:31 - Unable to start LiveReload server
+2025-01-16 12:31:31 - Starting ProtocolHandler ["http-nio-8081"]
+2025-01-16 12:31:31 - Tomcat started on port 8081 (http) with context path '/'
+2025-01-16 12:31:31 - Started ReviewsApplication in 3.343 seconds (process running for 3.857)
+2025-01-16 12:49:12 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-16 12:49:12 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-16 12:49:12 - Pausing ProtocolHandler ["http-nio-8081"]
+2025-01-16 12:49:12 - Graceful shutdown complete
+2025-01-16 12:49:12 - Stopping ProtocolHandler ["http-nio-8081"]
+2025-01-16 12:49:12 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-16 12:49:12 - HikariPool-1 - Shutdown initiated...
+2025-01-16 12:49:12 - HikariPool-1 - Shutdown completed.
+2025-01-16 12:49:12 - Starting ReviewsApplication using Java 17.0.4.1 with PID 21320 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
+2025-01-16 12:49:12 - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 12:49:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-16 12:49:12 - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2025-01-16 12:49:12 - Tomcat initialized with port 8081 (http)
+2025-01-16 12:49:12 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-16 12:49:12 - Starting service [Tomcat]
+2025-01-16 12:49:12 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-16 12:49:12 - Initializing Spring embedded WebApplicationContext
+2025-01-16 12:49:12 - Root WebApplicationContext: initialization completed in 200 ms
+2025-01-16 12:49:12 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-16 12:49:12 - HHH000026: Second-level cache disabled
+2025-01-16 12:49:12 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-16 12:49:12 - HikariPool-2 - Starting...
+2025-01-16 12:49:43 - SQL Error: 0, SQLState: 08S01
+2025-01-16 12:49:43 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-01-16 12:49:43 - HHH000342: Could not obtain connection to query metadata
+org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:320)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.hotelbooks.reviews.ReviewsApplication.main(ReviewsApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 40 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 53 common frames omitted
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 56 common frames omitted
+2025-01-16 12:49:43 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-16 12:49:43 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (null)']
 	Database driver: undefined/unknown
-	Database version: 8.0.31
+	Database version: 8.0
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-14 06:18:33 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
-2025-01-14 06:18:33 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-14 06:18:33 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-14 06:18:33 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-14 06:18:33 - Unable to start LiveReload server
-2025-01-14 06:18:33 - Starting ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:33 - Tomcat started on port 8081 (http) with context path '/'
-2025-01-14 06:18:33 - Started ReviewsApplication in 0.508 seconds (process running for 160.58)
-2025-01-14 06:18:33 - Condition evaluation unchanged
-2025-01-14 06:18:58 - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
-2025-01-14 06:18:58 - Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-14 06:18:58 - Pausing ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:58 - Graceful shutdown complete
-2025-01-14 06:18:58 - Stopping ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-01-14 06:18:58 - HikariPool-3 - Shutdown initiated...
-2025-01-14 06:18:58 - HikariPool-3 - Shutdown completed.
-2025-01-14 06:18:58 - Starting ReviewsApplication using Java 17.0.4.1 with PID 13644 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
-2025-01-14 06:18:58 - No active profile set, falling back to 1 default profile: "default"
-2025-01-14 06:18:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-14 06:18:58 - Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
-2025-01-14 06:18:58 - Tomcat initialized with port 8081 (http)
-2025-01-14 06:18:58 - Initializing ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:58 - Starting service [Tomcat]
-2025-01-14 06:18:58 - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-14 06:18:58 - Initializing Spring embedded WebApplicationContext
-2025-01-14 06:18:58 - Root WebApplicationContext: initialization completed in 248 ms
-2025-01-14 06:18:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-14 06:18:58 - HHH000026: Second-level cache disabled
-2025-01-14 06:18:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-14 06:18:58 - HikariPool-4 - Starting...
-2025-01-14 06:18:58 - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c25c3ba
-2025-01-14 06:18:58 - HikariPool-4 - Start completed.
-2025-01-14 06:18:58 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-14 06:18:58 - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+2025-01-16 12:49:43 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
+2025-01-16 12:49:43 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-16 12:49:43 - HikariPool-2 - Starting...
+2025-01-16 12:50:14 - SQL Error: 0, SQLState: 08S01
+2025-01-16 12:50:14 - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2025-01-16 12:50:14 - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+2025-01-16 12:50:14 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+2025-01-16 12:50:14 - Stopping service [Tomcat]
+2025-01-16 12:50:14 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-16 12:50:14 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.hotelbooks.reviews.ReviewsApplication.main(ReviewsApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:431)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	... 20 common frames omitted
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:70)
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:65)
+	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:570)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:122)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:72)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	... 24 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46)
+	... 45 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 58 common frames omitted
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 61 common frames omitted
+2025-01-16 12:50:16 - Starting ReviewsApplication using Java 17.0.4.1 with PID 21320 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
+2025-01-16 12:50:16 - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 12:50:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-16 12:50:16 - Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2025-01-16 12:50:16 - Tomcat initialized with port 8081 (http)
+2025-01-16 12:50:16 - Initializing ProtocolHandler ["http-nio-8081"]
+2025-01-16 12:50:16 - Starting service [Tomcat]
+2025-01-16 12:50:16 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-16 12:50:16 - Initializing Spring embedded WebApplicationContext
+2025-01-16 12:50:16 - Root WebApplicationContext: initialization completed in 151 ms
+2025-01-16 12:50:16 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-16 12:50:16 - HHH000026: Second-level cache disabled
+2025-01-16 12:50:16 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-16 12:50:16 - HikariPool-3 - Starting...
+2025-01-16 12:50:17 - SQL Error: 1130, SQLState: HY000
+2025-01-16 12:50:17 - CLI-specific condition,  message from server: "Host 'host.docker.internal' is not allowed to connect to this MySQL server"
+2025-01-16 12:50:17 - HHH000342: Could not obtain connection to query metadata
+org.hibernate.exception.GenericJDBCException: unable to obtain isolated JDBC connection [CLI-specific condition,  message from server: "Host 'host.docker.internal' is not allowed to connect to this MySQL server"] [n/a]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:63)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:320)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.hotelbooks.reviews.ReviewsApplication.main(ReviewsApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLException: CLI-specific condition,  message from server: "Host 'host.docker.internal' is not allowed to connect to this MySQL server"
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 40 common frames omitted
+2025-01-16 12:50:17 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-16 12:50:17 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (null)']
 	Database driver: undefined/unknown
-	Database version: 8.0.31
+	Database version: 8.0
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-14 06:18:58 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
-2025-01-14 06:18:58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-14 06:18:58 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-14 06:18:58 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-14 06:18:58 - Unable to start LiveReload server
-2025-01-14 06:18:58 - Starting ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:18:58 - Tomcat started on port 8081 (http) with context path '/'
-2025-01-14 06:18:58 - Started ReviewsApplication in 0.467 seconds (process running for 186.067)
-2025-01-14 06:18:58 - Condition evaluation unchanged
-2025-01-14 06:20:25 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-01-14 06:20:25 - Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-14 06:20:25 - Pausing ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:20:25 - Graceful shutdown complete
-2025-01-14 06:20:25 - Stopping ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:20:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-01-14 06:20:25 - HikariPool-4 - Shutdown initiated...
-2025-01-14 06:20:25 - HikariPool-4 - Shutdown completed.
-2025-01-14 06:20:25 - Starting ReviewsApplication using Java 17.0.4.1 with PID 13644 (C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews\target\classes started by pablo in C:\Users\pablo\Desktop\Cursos de spring\HotelsBooks_SpringBoot\reviews)
-2025-01-14 06:20:25 - No active profile set, falling back to 1 default profile: "default"
-2025-01-14 06:20:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-14 06:20:25 - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
-2025-01-14 06:20:25 - Tomcat initialized with port 8081 (http)
-2025-01-14 06:20:25 - Initializing ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:20:25 - Starting service [Tomcat]
-2025-01-14 06:20:25 - Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-14 06:20:25 - Initializing Spring embedded WebApplicationContext
-2025-01-14 06:20:25 - Root WebApplicationContext: initialization completed in 182 ms
-2025-01-14 06:20:25 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-14 06:20:25 - HHH000026: Second-level cache disabled
-2025-01-14 06:20:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-14 06:20:25 - HikariPool-5 - Starting...
-2025-01-14 06:20:25 - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@580042d1
-2025-01-14 06:20:25 - HikariPool-5 - Start completed.
-2025-01-14 06:20:25 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-14 06:20:25 - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
-	Database driver: undefined/unknown
-	Database version: 8.0.31
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-01-14 06:20:25 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
-2025-01-14 06:20:25 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-14 06:20:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-14 06:20:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-14 06:20:26 - Unable to start LiveReload server
-2025-01-14 06:20:26 - Starting ProtocolHandler ["http-nio-8081"]
-2025-01-14 06:20:26 - Tomcat started on port 8081 (http) with context path '/'
-2025-01-14 06:20:26 - Started ReviewsApplication in 0.495 seconds (process running for 273.421)
-2025-01-14 06:20:26 - Condition evaluation unchanged
-2025-01-14 06:20:37 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-14 06:20:37 - Initializing Servlet 'dispatcherServlet'
-2025-01-14 06:20:37 - Completed initialization in 0 ms
-2025-01-14 06:20:38 - 1,2
-2025-01-14 08:35:05 - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=34m10s26ms25µs100ns).
-2025-01-14 09:31:28 - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=30m53s26ms87µs101ns).
-2025-01-14 09:43:05 - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=6m36s916ms470µs899ns).
-2025-01-14 10:12:04 - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=21m58s703ms449µs500ns).
-2025-01-14 14:21:53 - HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=3h47m49s378ms254µs201ns).
-2025-01-14 14:49:21 - Application shutdown requested.
-2025-01-14 14:49:21 - Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-14 14:49:21 - Pausing ProtocolHandler ["http-nio-8081"]
-2025-01-14 14:49:21 - Graceful shutdown complete
-2025-01-14 14:49:21 - Stopping ProtocolHandler ["http-nio-8081"]
-2025-01-14 14:49:21 - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-01-14 14:49:21 - HikariPool-5 - Shutdown initiated...
-2025-01-14 14:49:21 - HikariPool-5 - Shutdown completed.
+2025-01-16 12:50:17 - HHH000182: No default (no-argument) constructor for class: com.hotelbooks.reviews.entity.ReviewEntity (class must be instantiated by Interceptor)
+2025-01-16 12:50:17 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-16 12:50:17 - HikariPool-3 - Starting...
+2025-01-16 12:50:18 - SQL Error: 1130, SQLState: HY000
+2025-01-16 12:50:18 - CLI-specific condition,  message from server: "Host 'host.docker.internal' is not allowed to connect to this MySQL server"
+2025-01-16 12:50:18 - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [CLI-specific condition,  message from server: "Host 'host.docker.internal' is not allowed to connect to this MySQL server"] [n/a]
+2025-01-16 12:50:18 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [CLI-specific condition,  message from server: "Host 'host.docker.internal' is not allowed to connect to this MySQL server"] [n/a]
+2025-01-16 12:50:18 - Stopping service [Tomcat]
+2025-01-16 12:50:18 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-16 12:50:18 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [CLI-specific condition,  message from server: "Host 'host.docker.internal' is not allowed to connect to this MySQL server"] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.hotelbooks.reviews.ReviewsApplication.main(ReviewsApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [CLI-specific condition,  message from server: "Host 'host.docker.internal' is not allowed to connect to this MySQL server"] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:431)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	... 20 common frames omitted
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [CLI-specific condition,  message from server: "Host 'host.docker.internal' is not allowed to connect to this MySQL server"] [n/a]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:63)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:70)
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:65)
+	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:570)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:122)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:72)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:233)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	... 24 common frames omitted
+Caused by: java.sql.SQLException: CLI-specific condition,  message from server: "Host 'host.docker.internal' is not allowed to connect to this MySQL server"
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46)
+	... 45 common frames omitted
