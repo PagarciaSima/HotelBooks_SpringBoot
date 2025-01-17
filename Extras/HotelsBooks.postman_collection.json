@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "29f8407e-545d-4903-8e1a-e457e490d817",
+		"name": "HotelsBooks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27783092"
+	},
+	"item": [
+		{
+			"name": "getHotelServices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/hotels/services/1,2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"hotels",
+						"services",
+						"1,2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAverageRatings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/hotels/reviews/1,2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"hotels",
+						"reviews",
+						"1,2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/api/hotels/available?startDate=2024-12-12&endDate=2024-12-16&cityId=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"hotels",
+						"available"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2024-12-12"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-12-16"
+						},
+						{
+							"key": "cityId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

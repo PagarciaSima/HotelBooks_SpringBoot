@@ -36,37 +36,10 @@ The frontend of the application is built with Angular and can be found in the fo
 
 ---
 
-## Interfaces 
+## Application Interface
 
-### Login
-![login](img/login.png)
-
-### Home
-![home](img/home.png)
-
-### Users
-![users](img/users.png)
-
-### Fixed expenses
-![fixed expenses](img/fixedExpenses.png)
-
-### Daily expenses
-![daily expenses](img/dailyExpenses.png)
-
-### Delete modal
-![Delete modal](img/delete.png)
-
-### Create modal
-![Create modal](img/create.png)
-
-### Edit modal
-![Edit modal](img/edit.png)
----
-
-## Swagger UI documentation 
-
-### Documentation
-![Documentationl](img/swaggerui.png)
+### Hotels search
+![Home](img/home.png)
 
 ---
 
@@ -75,6 +48,16 @@ The frontend of the application is built with Angular and can be found in the fo
 - The **database** and the **Postman collection** are located in the `Extras` folder of the project.
   - The database can be imported into your local database system for testing.
   - The Postman collection can be used to test the endpoints of the API.
+- The **OpenAPI documentation** YAML files are also included in the project, providing the API interface for integration and testing.
 
 ---
 
+## Setup and Installation
+
+### Backend (Spring Boot with Docker)
+
+1. Clone the repository.
+2. Navigate to the root folder where the `docker-compose.yml` file is located.
+3. Run Docker Compose to bring up the microservices:
+   ```bash
+   docker-compose up

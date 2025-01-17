@@ -1,0 +1,90 @@
+openapi: 3.0.1
+info:
+  title: Hotel API
+  description: API para obtener información de hoteles, incluyendo servicios y calificaciones.
+  version: 1.0.0
+paths:
+  /hotels/{id}:
+    get:
+      summary: Obtener información de un hotel por ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 2
+      responses:
+        '200':
+          description: Información detallada del hotel
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 2
+                  name:
+                    type: string
+                    example: "Hotel Transilvania"
+                  price:
+                    type: number
+                    format: float
+                    example: 230.0
+                  description:
+                    type: string
+                    example: "Hotel ubicado en el centro del estado de California"
+                  picture:
+                    type: string
+                    example: ""
+                  street:
+                    type: string
+                    example: "Los muermos"
+                  number:
+                    type: string
+                    example: "155"
+                  cityName:
+                    type: string
+                    example: "Transilvania"
+                  services:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        serviceId:
+                          type: integer
+                          example: 3
+                        serviceName:
+                          type: string
+                          example: "Aire acondicionado"
+                  averageCalification:
+                    type: number
+                    format: float
+                    example: 4.5
+        '404':
+          description: Hotel no encontrado
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  code:
+                    type: integer
+                    example: 404
+                  description:
+                    type: string
+                    example: "No se encontraron registros"
+        '500':
+          description: Error interno del servidor
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  code:
+                    type: integer
+                    example: 500
+                  description:
+                    type: string
+                    example: "Error interno en el servidor"
