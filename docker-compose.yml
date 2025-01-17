@@ -17,7 +17,7 @@ services:
       - pabgarsi-network
   
   hotels:
-    image: pabgarsi/hotellist:latest
+    image: pabgarsi/hotelslist:latest
     mem_limit: 800m
     ports:
       - "8082:8082"
